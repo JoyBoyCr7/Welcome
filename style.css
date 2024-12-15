@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(18, 10, 10);
+}
+body{
+    background-color: rgb(137, 180, 180);
+}
+#opening {
+    color: rgb(218, 20, 20);
+    size: 20px;
+}
+.textbox{display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gridbox{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: space-around;
+    align-items: center;
+}
+.row{
+    grid-area: 1/ 1 / span 1/ span 2;
+    
+}
+.text{width: 50%;
+
+}
